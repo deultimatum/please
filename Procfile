@@ -1,1 +1,1 @@
-worker: 
+worker: hihibot.py
