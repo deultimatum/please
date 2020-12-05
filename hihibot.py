@@ -16,4 +16,8 @@ class MyClient(discord.Client):
             await message.channel.send('Hello {0.author.mention}'.format(message))
 
 client = MyClient()
-client.run(' Nzg0Mzc3NjQ4NTQ4Njc1NjE0.X8oanA.jlvXk2kaKGsRSoyK58bINrQY0rA')
+const config = require('./config.json');
+
+...
+
+client.run(config.token)
